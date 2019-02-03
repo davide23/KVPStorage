@@ -1,0 +1,29 @@
+# KVPStorage
+This is a c++ application called KVPStorage.
+The KVPStorage app allows the user to edit and query a configuration file by means of the three supported operations: SET, GET and DELETE.
+
+## Compile and run
+To compile and run the app, download this repository or untar the compressed folder of the project.
+
+1. cd build
+2. rm -rf *
+3. cmake ..
+4. make
+
+The executable is generated in the folder ./bin, with the name "kvp_storage".
+From the build directory, in order to run the app, type:
+
+1. cd ../bin/
+2./kpg_storage
+
+Supported instructions:
+
+- SET key value
+  This instruction sets a new setting (key) in the configuration file. If no value is
+  provided, the settings will be saved as: key.
+  
+- GET key
+  Gets the value of the settings specified by the key. Note: if no settings is found, will be printed an empty string.
+
+- DELETE key
+  Deletes the entry associated to the specified key, if exists.

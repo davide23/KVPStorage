@@ -1,0 +1,3 @@
+/home/davide/KVPStorage/build/CMakeFiles/rebuild_cache.dir
+/home/davide/KVPStorage/build/CMakeFiles/kvp_storage.dir
+/home/davide/KVPStorage/build/CMakeFiles/edit_cache.dir

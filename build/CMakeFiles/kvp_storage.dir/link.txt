@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/kvp_storage.dir/src/main.cpp.o CMakeFiles/kvp_storage.dir/src/kvp_storage_manager.cpp.o CMakeFiles/kvp_storage.dir/src/kvp_storage_interface.cpp.o  -o ../bin/kvp_storage 
